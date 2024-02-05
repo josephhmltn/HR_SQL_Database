@@ -6,7 +6,7 @@ This SQL file outlines the creation and manipulation of an "employees" database,
 
 ## Database and Table Setup
 
-~~~~sqlcode
+~~~~sql
 USE master
 GO
 
