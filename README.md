@@ -6,7 +6,7 @@ This SQL file outlines the creation and manipulation of an "employees" database,
 
 ## Database and Table Setup
 
-```
+~~~~sqlcode
 USE master
 GO
 
@@ -20,4 +20,4 @@ IF EXISTS (SELECT * FROM sys.databases WHERE name = 'employees')
 GO
 	USE employees;
 GO
-```
+~~~~
